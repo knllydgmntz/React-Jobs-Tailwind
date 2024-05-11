@@ -79,6 +79,7 @@ const EditJobPage = ({ updateJobSubmit }) => {
                 Job Listing Name
               </label>
               <input
+                autoComplete="off"
                 type="text"
                 id="title"
                 name="title"
@@ -141,6 +142,7 @@ const EditJobPage = ({ updateJobSubmit }) => {
                 Location
               </label>
               <input
+                autoComplete="off"
                 type="text"
                 id="location"
                 name="location"
@@ -160,6 +162,7 @@ const EditJobPage = ({ updateJobSubmit }) => {
                 Company Name
               </label>
               <input
+                autoComplete="off"
                 type="text"
                 id="company"
                 name="company"
@@ -197,6 +200,7 @@ const EditJobPage = ({ updateJobSubmit }) => {
               </label>
 
               <input
+                autoComplete="off"
                 type="email"
                 id="contact_email"
                 name="contact_email"
@@ -216,6 +220,7 @@ const EditJobPage = ({ updateJobSubmit }) => {
                 Contact Phone
               </label>
               <input
+                autoComplete="off"
                 type="tel"
                 id="contact_phone"
                 name="contact_phone"
